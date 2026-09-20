@@ -1,0 +1,10 @@
+Partitions,Internal metric,Spearman rho vs ARI,Spearman rho vs NMI
+K-Means only (7 partitions),Silhouette,-0.642857142857143,-0.5
+K-Means only (7 partitions),Davies-Bouldin,0.5357142857142858,0.3214285714285715
+K-Means only (7 partitions),Calinski-Harabasz,-0.642857142857143,-0.5
+HAC only (28 partitions),Silhouette,-0.9167807281686285,-0.9364905557076376
+HAC only (28 partitions),Davies-Bouldin,0.8817410347659459,0.8817410347659459
+HAC only (28 partitions),Calinski-Harabasz,0.8729811114152752,0.8379414180125925
+K-Means + HAC (35 partitions),Silhouette,-0.9002661437176074,-0.8851379745062333
+K-Means + HAC (35 partitions),Davies-Bouldin,0.8789746463090069,0.8470374001961058
+K-Means + HAC (35 partitions),Calinski-Harabasz,0.7910071438576831,0.7663538310687771
